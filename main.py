@@ -3,7 +3,7 @@ from difflib import get_close_matches  # this is for getting the closer match of
 
 data = json.load(open('data.json'))
 
-
+# new line added
 def translate(w):
     w = w.lower()
     if w in data:
@@ -43,4 +43,3 @@ if type(output) == list:
 
 else:
     print(output)
-
